@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+.navbar{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    padding-left: 10px;
+}
+
+.navbar a{
+    padding: 5px;
+    margin: 0 5px 0 5px;
+    color: black;
+    font-size: 14px;
+}
+
+.nav-right{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-right a svg{
+    opacity: 70%;
+}
+
+.nav-right a{
+    border-radius: 100px;
+    font-size: 13px;
+}
+
+.nav-img-link{
+    padding: 5px;
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    transition: background-color 0.3s ease-out;
+}
+
+.nav-img-link:hover{
+    background-color: #d2d2d2;
+}
+.container-top{
+    padding: 150px 0 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container-center{
+  display: flex;
+  flex-direction: column;     /* stack items vertically */
+  align-items: center;        /* center items horizontally */
+}
+
+.container-search{
+    display: flex;
+    z-index: 3;
+    position: relative;
+    min-height: 39px;
+    border: 1px solid #d2d2d2;
+    box-shadow: 0px 2px 8px 0px rgba(60, 64, 67, 0.25);
+    border-radius: 26px;
+    margin: 0 auto;
+    width: 638px;
+    width: auto;
+    max-width: 584px;
+}
+
+.search-input {
+    resize: none;
+    width: 443px;
+    height: 44px;
+    border: none;
+    color: #4d5156;
+    line-height: 22px;
+}
+input:focus {
+    border: none;
+    outline: none;
+    color: #4d5156;
+}
+
+.search-icon{
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    padding-left: 14px;
+    height: 52px;
+    opacity: 50%;
+}
+
+.mic-icon{
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+    opacity: 70%;
+}
+
+.lens-icon{
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+    margin: 0 6px 0 0 ;
+    opacity: 70%;
+}
+
+/* textarea.input-text {
+    font-family: Google Sans, Arial, sans-serif;
+    line-height: 22px;
+    border-bottom: 8px solid transparent;
+    padding-top: 11px;
+    overflow-x: hidden;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: #e8eaed;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    -webkit-tap-highlight-color: transparent;
+} */
+
+
+.container-bottom{
+    height: 204px;
+}
+.container-lucky{
+    display: flex;
+    justify-content: center;
+    width: 584px;
+    padding: 20px ;
+}
+
+.container-lucky-div {
+    color: #3c4043;
+    padding: 10px 16px;
+    margin: 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border: 1px solid transparent; /* invisible border to reserve space */
+    transition: border-color 0.2s ease;
+    font-size: 14px;
+}
+
+.container-lucky-div:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.container-googly{
+    height: 17px;
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+}
+
+.container-googly a{
+    margin: 0 5px 0 5px;
+}
+
+.container-lang{
+    height: 28px;
+    margin: 0 0 24px 0;
+    display: flex;
+    justify-content: center;
+
+}
+.container-lang a {
+    margin: 0 5px 0 5px;
+}
+
+.container-location{
+    padding: 15px 30px;
+    font-size: 15px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #dadce0;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    padding: 0 20px;
+}
+
+.footer-left{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.footer-right{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+footer a{
+    padding: 15px;
+    color: #1f1f1f;
+}
